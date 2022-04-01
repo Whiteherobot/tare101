@@ -17,9 +17,11 @@ public class Perro {
      public static void main(String[] args) {
         var perro = new Perro();
         perro.raza="Pastor Alemán";
-        
+    
+        perro.nombre="Pepe";
         
         System.out.println("El raza del perro es: "+perro.raza);
+        System.out.println("El nombre del perro es: "+perro.nombre);
      }
 }
 
